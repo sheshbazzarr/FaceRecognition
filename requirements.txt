@@ -10,6 +10,7 @@ decorator==5.1.1
 executing==2.1.0
 Flask==3.1.0
 fonttools==4.55.3
+gunicorn==23.0.0
 ipykernel==6.29.5
 ipython==8.31.0
 itsdangerous==2.2.0
@@ -37,7 +38,7 @@ Pygments==2.18.0
 pyparsing==3.2.1
 python-dateutil==2.9.0.post0
 pytz==2024.2
-pywin32==308; sys_platform == "win32"
+pywin32==308
 pyzmq==26.2.0
 scikit-learn==1.6.0
 scipy==1.15.0
