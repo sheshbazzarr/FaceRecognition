@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+<div class="container">
+    <br><br>
+    <h3 class="display-6">Welcome to My Face Recognition Web App Project</h3>
+    <br>
+    <p>
+        This project showcases my journey of developing an end-to-end face recognition system. It covers both machine learning and web development aspects, breaking down the process into two main phases:
+    </p>
+    <img src="/static/images/content/modules.svg" class="image-fluid" height="300" alt="Modules Overview">
+    <p>
+        In the first phase, I focused on training the machine learning model for face recognition, learning the intricacies of data handling and model training. The second phase involved developing a web application (API) using Flask to integrate and serve the model to users.
+    </p>
+    <br>
+
+    <h4>1. Training the Face Recognition Model</h4>
+    <p>To build a reliable face recognition system, I followed a systematic approach that involved these key steps:</p>
+    <ol>
+        <li>Data Gathering</li>
+        <li>Data Preprocessing</li>
+        <li>Feature Engineering</li>
+        <li>Building the Machine Learning Model</li>
+        <li>Creating the ML Pipeline</li>
+    </ol>
+    <p>Here’s a diagram outlining the training flow and the various steps involved:</p>
+    <img class="image-fluid" height="300" src="/static/images/content/training_flow.svg" alt="Training Flow">
+
+    <h4>2. Developing the Web Application</h4>
+    <p>After finalizing the machine learning model, I moved on to developing a Flask-based web application to integrate the face recognition model and create a user-friendly interface.</p>
+    <ol>
+        <li>Developed the Web App using:
+            <ul>
+                <li>Flask for the Web Server (Backend)</li>
+                <li>HTML for the Layout (Frontend)</li>
+                <li>Bootstrap for Styling (Frontend)</li>
+            </ul>
+        </li>
+        <li>Integrated the machine learning model into the web app</li>
+        <li>Deployed the web application on Heroku Cloud for easy access</li>
+    </ol>
+
+    <h4>3. Deployment and Final Steps</h4>
+    <p>Once the web application was built and tested, I pushed the code to GitHub and deployed it on Heroku to ensure it's accessible to users.</p>
+    <img src="/static/images/content/deployment.svg" height="300" class="image-fluid" alt="Deployment Process">
+
+    <p>This project was a rewarding experience that helped me learn both machine learning concepts and web development. I hope you enjoy exploring the project and the face recognition capabilities I’ve built!</p>
+</div>
+
+{% endblock %}
