@@ -10,6 +10,11 @@ The project is organized into several directories and files:
 - `data/`: Directory containing input images categorized into `male` and `female` subdirectories.
 - `crop_data/`: Directory where cropped face images are saved after processing.
 - `model/`: Directory containing the Haar Cascade classifier model for face detection.
+- `notebooks/`: Directory containing other notebooks for different stages of the project, including:
+  - `2_Train_FaceRecognition_with_ML.ipynb`: Jupyter Notebook for training a face recognition model using machine learning techniques.
+  - `3_Evaluate_FaceRecognition_Model.ipynb`: Jupyter Notebook for evaluating the performance of the trained face recognition model.
+  - `4_Deploy_FaceRecognition_Model.ipynb`: Jupyter Notebook for deploying the trained face recognition model in a real-world application.
+
 
 ## Requirements
 To run this project, you will need the following Python packages:
@@ -42,3 +47,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Acknowledgments
 - OpenCV for computer vision tasks.
 - Jupyter Notebook for interactive coding and visualization.
+- `IMDB-WIKI Dataset`: A large dataset of celebrity images, which can be used for training and testing face recognition models. You can download the dataset from [here](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/).
