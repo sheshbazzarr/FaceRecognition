@@ -51,21 +51,21 @@ Here are two examples of tested results showcasing the app's functionalities:
 Below are the results of the face recognition test:
 
 #### Result 1:Single face detected(Male)
-![Result 1](FaceRecognition/test1.png)
+![Result 1](test1.png)
 
 #### Result 2: Single face detected (Female)
-![Result 2](FaceRecognition/test2.png)
+![Result 2](test2.png)
 
 #### Result 3: Two faces detected
-![Result 3](FaceRecognition/test3.png)
+![Result 3](test3.png)
 
 ---
 
 ### 3. Video Demonstrations
 To see the app in action, watch the following video demonstrations:
 
-- **Video 1**: [https://www.youtube.com/watch?v=EQILXt0xKrk](Face Recognition Web App)
-- **Video 2**: [Link to video demonstration 2](#)
+- **Video 1**: [https://www.youtube.com/watch?v=EQILXt0xKrk]( Face Recognition Web App)
+<!-- - **Video 2**: [Link to video demonstration 2](#) -->
 
 ---
 
