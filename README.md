@@ -2,7 +2,7 @@
 
 This project showcases my journey of developing an end-to-end face recognition system. It covers both machine learning and web development aspects, breaking down the process into two main phases:
 
-![Project Overview](FaceRecognition/facerecognition.png)
+![Project Overview](facerecognition.png)
 
 ---
 
@@ -11,6 +11,8 @@ This project showcases my journey of developing an end-to-end face recognition s
 In the first phase, I focused on training the machine learning model for face recognition, learning the intricacies of data handling and model training. The second phase involved developing a web application (API) using Flask to integrate and serve the model to users.
 
 ---
+![Training Flow](facerecognition.png)
+
 
 ### 1. Training the Face Recognition Model
 
@@ -31,15 +33,26 @@ To build a reliable face recognition system, I followed a systematic approach th
 #### Creating the ML Pipeline
 - Designed a modular pipeline for streamlined training and testing processes.
 
-![Training Flow](facerecognition.png)
+
 ---
+### 2. Developing the Web Application
+After finalizing the machine learning model, I moved on to developing a Flask-based web application to integrate the face recognition model and create a user-friendly interface.
+
+**Developed the Web App using:**
+- Flask for the Web Server (Backend)
+- HTML for the Layout (Frontend)
+- Bootstrap for Styling (Frontend)
+- Integrated the machine learning model into the web app
+- Deployed the web application on Heroku Cloud for easy access
 
 ## Visual Demonstrations
-
 ### 1. Website Screenshot
 Below is a screenshot of the main page of the application:
+### homepage interfaces
+![Website Screenshot](homepage.png)
+### main app interfaces
 
-![Website Screenshot](screenshot.png)
+![Website Screenshot](back.png)
 
 ---
 
