@@ -31,7 +31,7 @@ To build a reliable face recognition system, I followed a systematic approach th
 #### Creating the ML Pipeline
 - Designed a modular pipeline for streamlined training and testing processes.
 
-![Training Flow](FaceRecognition/facerecognition.png)
+![Training Flow](facerecognition.png)
 ---
 
 ## Visual Demonstrations
@@ -64,7 +64,7 @@ Below are the results of the face recognition test:
 ### 3. Video Demonstrations
 To see the app in action, watch the following video demonstrations:
 
-- **Video 1**: [https://www.youtube.com/watch?v=EQILXt0xKrk]( Face Recognition Web App)
+- **Video 1**: [![Face Recognition Web App](https://img.youtube.com/vi/EQILXt0xKrk/0.jpg)](https://www.youtube.com/watch?v=EQILXt0xKrk)
 <!-- - **Video 2**: [Link to video demonstration 2](#) -->
 
 ---
